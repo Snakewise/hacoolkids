@@ -17,7 +17,7 @@ y = 255
 x_change = 0
 y_change = 0 
 while not crashed:
-    gameDisplay.fill((50,240,0))
+    gameDisplay.fill((90,90,90))
     pygame.draw.rect(gameDisplay, (255,255,255),(x,y,50,50))
     pygame.display.update()
     for event in pygame.event.get():
